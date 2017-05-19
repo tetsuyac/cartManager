@@ -1,0 +1,33 @@
+.descriptionSummary {
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.descriptionDetailsMain, .descriptionDetailsSub {
+    font-size: small;
+}
+
+.detailsPrice div {
+    font-size: larger;
+    width: 3rem;
+    heigth: 2rem;
+    margin-bottom: .5rem;
+}
+
+.detailsAmount input {
+    font-size: larger;
+    text-align: center;
+    width: 4rem;
+    heigth: 2rem;
+    margin-bottom: .5rem;
+}
+
+.detailsAmount div {
+    margin: .5rem
+}
+
+.detailsCart {
+    margin-bottom: 1rem;
+}

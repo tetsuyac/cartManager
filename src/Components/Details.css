@@ -1,0 +1,43 @@
+.AccordionBase div .Collapsible:nth-of-type(1) {
+    border-top: 2px solid black;
+}
+
+.Collapsible {
+    border-bottom: 1px solid grey;
+}
+
+.AccordionBase div .Collapsible:nth-last-of-type(1) {
+    border-bottom: 2px solid black;
+}
+
+.Collapsible__trigger {
+    list-style-type: none;
+}
+
+.Collapsible__trigger:before {
+    content: "\f04b";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.2em; /*same as padding-left set on li*/
+    width: 1.2em; /*same as padding-left set on li*/
+
+}
+
+.Collapsible__trigger.is-open:before {
+    transform: translate(-4px, 4px) rotate(90deg);
+    /*    transform: rotate(-90deg);*/
+    /* Safari */
+    -webkit-transform: translate(-4px, 4px) rotate(90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
