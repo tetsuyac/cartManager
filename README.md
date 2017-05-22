@@ -1,7 +1,8 @@
-# cartManager, react responsive spa
-```
-rev 0.init 05/19/2017: initial cut
-```
+# cartManager, react redux responsive spa
+
+    rev 0.1    05/22     : redux in
+    rev 0.init 05/19/2017: initial cut
+
 
 [DEMO](https://tetsuyac.github.io/cartManager)
 
