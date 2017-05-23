@@ -20,7 +20,7 @@
    perspective yet it is fully implemented and functional.
 
 ## steps to run
-1. git clone https://github.com/tetsuyac/cartManager.git d3Mol
+1. git clone https://github.com/tetsuyac/cartManager.git cartManager
 1. cd cartManager
 1. npm install
 1. npm start
