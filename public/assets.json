@@ -5,32 +5,20 @@
       "thumbnail"
     ],
     [
-      "shoes/shoes-sport-black.jpg",
-      "shoes/shoes-sport-black.jpg"
+      "product-large-a.jpg",
+      "product-small-a.jpg"
     ],
     [
-      "shoes/shoes.sport.blue.jpg",
-      "shoes/shoes.sport.blue.jpg"
+      "product-large-b.jpg",
+      "product-small-b.jpg"
     ],
     [
-      "shoes/shoes.sport.grey.jpg",
-      "shoes/shoes.sport.grey.jpg"
+      "product-large-c.jpg",
+      "product-small-c.jpg"
     ],
     [
-      "shoes/shoes.sport.pink.jpg",
-      "shoes/shoes.sport.pink.jpg"
-    ],
-    [
-      "shoes/shoes.sport.pink.stripe.jpg",
-      "shoes/shoes.sport.pink.stripe.jpg"
-    ],
-    [
-      "shoes/shoes.sport.white.jpg",
-      "shoes/shoes.sport.white.jpg"
-    ],
-    [
-      "shoes/shoes.sport.green.bright.jpg",
-      "shoes/shoes.sport.green.bright.jpg"
+      "product-large-d.jpg",
+      "product-small-d.jpg"
     ]
   ],
   "solos": [
@@ -47,12 +35,8 @@
       "button-add-to-cart.png"
     ],
     [
-      "logo0",
-      "logo.png"
-    ],
-    [
       "logo",
-      "ab-logo.jpg"
+      "logo.png"
     ]
   ]
 }

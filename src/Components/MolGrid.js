@@ -22,7 +22,7 @@ var MolGrid = CreateReactClass({
       cols:       {lg: 12,   md: 10,  sm: 6,  xs: 4,   xxs: 2},
       isDraggable: false,
       isResizable: false,
-      rowHeight: 52,
+      rowHeight: 65,
       width:1200,
       autosize:true,
       verticalCompact:true,

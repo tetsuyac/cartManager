@@ -1,4 +1,4 @@
-const o = {
+var o = {
   specs: [{
     summaries: [],
     images: [
@@ -22,32 +22,45 @@ const o = {
   s: {
     id: -1,                      // product ID
     vd: -1,                      // product variant ID
-    prodMap: [[0]],
-    modalIsOpen: false           // modal Dialog
+    prodMap: [[0]]
   },
   p: [{                          // p[id].tag[vd]
     _vd: [
-      1, 2, 3, 4, 5, 6, 7        // TODO will be automatically calculated and filled in.
+      1, 2, 3, 4
     ],
     summaries: [
-      "Sport Shoes Black",
-      "Sport Shoes Blue",
-      "Sport Shoes Grey",
-      "Sport Shoes Pink",
-      "Sport Shoes Pink Stripe",
-      "Sport Shoes White",
-      "Sport Shoes Green Bright"
+      "Williams-Sonoma Classic Apron, French Blue",
+      "Williams-Sonoma Classic Apron, Black White Stripe",
+      "Williams-Sonoma Classic Apron, Light Green White Stripe",
+      "Williams-Sonoma Classic Apron, Red"
     ],
-    images: [[""]], // TODO product part of assets.json (product images, etc) comes here.
-                    // TODO distilled version of products.js contents goes to assets.json for intelligent fetch.
-                    // TODO distilled version of assets.json contents hosts true assets (logos, buttons, etc) with import.
+    images: [
+      [
+        "product-large-a.jpg",
+        "product-small-a.jpg"
+      ],
+      [
+        "product-large-b.jpg",
+        "product-small-b.jpg"
+      ],
+      [
+        "product-large-c.jpg",
+        "product-small-c.jpg"
+      ],
+      [
+        "product-large-d.jpg",
+        "product-small-d.jpg"
+      ]
+    ],
     details: [{
-      main: `main 1 contents`,
+      main: `A generously sized apron is a necessity in any kitchen, and ours will brighten yours with lively color. 
+      Sewn of thick cotton, it can be personalized or monogrammed with up to nine characters. all the same height,
+      embroidered in your choice of color. An apron of this quality makes a welcome gift for any cook.`,
       marks: [
-        "marks 1 1",
-        "marks 1 2",
-        "marks 1 3",
-        "marks 1 4"
+        "Durable 100% cotton construction.",
+        "Adjustable neckband ensures a good fit.",
+        "Roomy front pockets hold small tools.",
+        "Machine-wash."
       ],
       price: 9.98
     }, {
@@ -77,39 +90,12 @@ const o = {
         "marks 4 4"
       ],
       price: 39.98
-    }, {
-      main: `main 5 contents`,
-      marks: [
-        "marks 5 1",
-        "marks 5 2",
-        "marks 5 3",
-        "marks 5 4"
-      ],
-      price: 49.98
-    }, {
-      main: `main 6 contents`,
-      marks: [
-        "marks 6 1",
-        "marks 6 2",
-        "marks 6 3",
-        "marks 6 4"
-      ],
-      price: 59.98
-    }, {
-      main: `main 7 contents`,
-      marks: [
-        "marks 7 1",
-        "marks 7 2",
-        "marks 7 3",
-        "marks 7 4"
-      ],
-      price: 69.98
     }]
   }],
   getProdMap: () => {
-    let r = []
-    for (let i = 0, l = o.getProdNum(); i < l; i++) {
-      for (let j = 0, m = o.getProdMutNum(i); j < m; j++) {
+    var r = []
+    for (var i = 0, l = o.getProdNum(); i < l; i++) {
+      for (var j = 0, m = o.getProdMutNum(i); j < m; j++) {
         r[i] = j
       }
     }

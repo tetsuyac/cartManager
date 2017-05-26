@@ -9,10 +9,6 @@ class Header extends Component {
           width: "25rem",
           margin: "0 auto",
           textAlign: "center"
-        },
-        img: {
-          width: "100%",
-          marginTop: "-6rem"
         }
       }
     }
